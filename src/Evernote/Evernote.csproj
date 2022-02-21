@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ProductVersion>8.0.30703</ProductVersion>
+		<Company>Evernote</Company>
+		<Product>EDAM</Product>
+		<Title>Evernote Data Acess and Management API</Title>
+		<Copyright>Copyright 2011 Evernote Corporation</Copyright>
+		<Version>2.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="ApacheThrift" Version="0.16.0" />
+	</ItemGroup>
+
+</Project>

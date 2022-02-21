@@ -1,0 +1,9 @@
+From the solution directory (named Evernote)
+
+rd /s /q EDAM
+md EDAM
+..\..\build\thrift-0.16.0.exe -out ..\ -strict --gen netstd ..\..\evernote-thrift\src\Errors.thrift
+..\..\build\thrift-0.16.0.exe -out ..\ -strict --gen netstd ..\..\evernote-thrift\src\Limits.thrift
+..\..\build\thrift-0.16.0.exe -out ..\ -strict --gen netstd ..\..\evernote-thrift\src\NoteStore.thrift
+..\..\build\thrift-0.16.0.exe -out ..\ -strict --gen netstd ..\..\evernote-thrift\src\Types.thrift
+..\..\build\thrift-0.16.0.exe -out ..\ -strict --gen netstd ..\..\evernote-thrift\src\UserStore.thrift
