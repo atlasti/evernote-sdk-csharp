@@ -8,6 +8,7 @@
 		<Title>Evernote Data Acess and Management API</Title>
 		<Copyright>Copyright 2011 Evernote Corporation</Copyright>
 		<Version>2.0.0</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
